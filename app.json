@@ -13,12 +13,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "16201672",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "55f85061314c2c0f6edeec9751b90913",
         "required": true
       },
       "BOT_TOKEN": {
@@ -28,7 +28,7 @@
       },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
-        "value": "1356469075",
+        "value": "5686536025",
         "required": true
       },
       "SESSION": {
@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "Link of your telegram support group. (Must pe public)",
-        "value": "https://t.me/DevilsHeavenMF",
+        "value": "https://t.me/tso_chats",
         "required": false
       }
     },
