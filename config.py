@@ -13,8 +13,8 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
 OWNER_ID = int(getenv("OWNER_ID"))
 
-PING_IMG = getenv("PING_IMG", "https://te.legra.ph/file/6114ed5774f809abc28e9.jpg")
-START_IMG = getenv("START_IMG", "https://te.legra.ph/file/6114ed5774f809abc28e9.jpg")
+PING_IMG = getenv("PING_IMG", "https://te.legra.ph/file/57ba5962f44d06595b353.jpg")
+START_IMG = getenv("START_IMG", "https://te.legra.ph/file/57ba5962f44d06595b353.jpg")
 
 SESSION = getenv("SESSION", None)
 
