@@ -45,20 +45,20 @@ buttons = InlineKeyboardMarkup(
 pm_buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs❓", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 🚀", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ 🚑", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀʙᴏᴜᴛ ᴍᴇ", url="https://t.me/ABOUT_YOUR_SHIV"
+            text="sᴏᴜʀᴄᴇ  📡", url="https://te.legra.ph/file/f3d98dda492293f91b7c8.mp4"
         ),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ 💻", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -66,19 +66,19 @@ pm_buttons = [
 gp_buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 🚀", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ 🚑", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀʙᴏᴜᴛ ᴍᴇ", url="https://t.me/ABOUT_YOUR_SHIV"
+            text="sᴏᴜʀᴄᴇ  📡", url="https://te.legra.ph/file/f3d98dda492293f91b7c8.mp4"
         ),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ 💻", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -86,13 +86,13 @@ gp_buttons = [
 helpmenu = [
     [
         InlineKeyboardButton(
-            text="ᴇᴠᴇʀʏᴏɴᴇ",
+            text="ᴇᴠᴇʀʏᴏɴᴇ 🌏",
             callback_data="fallen_cb help",
         )
     ],
     [
-        InlineKeyboardButton(text="sᴜᴅᴏ", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="sᴜᴅᴏ 🥷", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ 💸", callback_data="fallen_cb owner"),
     ],
     [
         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_home"),
@@ -102,7 +102,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ 🚑", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_help"),
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
