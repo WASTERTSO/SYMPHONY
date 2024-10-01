@@ -1,5 +1,5 @@
 {
-    "name": "ғᴀʟʟᴇɴ ダ ᴍᴜsɪᴄ",
+    "name": "Symphony",
     "description": "A VC Player Bot for telegram videochats, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://te.legra.ph/file/6f99c49bdb4679acad717.jpg",
     "keywords": [
@@ -13,32 +13,32 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "16201672",
+        "value": "20526156",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "55f85061314c2c0f6edeec9751b90913",
+        "value": "41c8446861ac499d58c1ebfde3ff39b7",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "7940225172:AAFSv83gqnWpvXxT1JEEO_XyPmkVC1My2vw",
         "required": true
       },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
-        "value": "5686536025",
+        "value": "5849341651",
         "required": true
       },
       "SESSION": {
         "description": "A pyrogram v2 string session from @StringFatherBot",
-        "value": "",
+        "value": "BQE3PeMAkCoYBZBJIPxPnwJQfcilHF6td4paJVLigdmEEiKsv4KnS0I8u0FvA4MvDwGSKGE7hOEhV3q3WubP9s3jnaozNA9UA6CNVdXdTDN5fg6WFBHGwHD5uH4tIOeqYYvm4VFWEc7fWzBSWoI9HhJ1JxQHIGPnbCl3UQOXdfenb2vrlov4vSl_FYDxW0KCmZ_JkissOL0OuMI0wBPEBeJ9Y4cz9GYnYsqWIJpYy-O1-JrJKMqF3CLZZ8KIG4xOTPYmADgo5eI1xQjB4GyhUQaBtBc86Q6SY95aHBDSalCD5nuihRuUJpVDJPZL-7czeOrtskJI6n0lRxo11FmL4zWXJEnOtQAAAAFmAkzxAA",
         "required": true
       },
       "SUDO_USERS": {
         "description": "The user id(s) of user(s) whom you would like to add as a sudo. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "7000125824",
         "required": true
       },
       "SUPPORT_CHAT": {
