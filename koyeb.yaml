@@ -1,0 +1,17 @@
+name: my-python-app
+services:
+  - name: web
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - 8080:8080
+    scalability:
+      min: 1
+      max: 5
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+    routes:
+      - path: /
+        type: DEFAULT
