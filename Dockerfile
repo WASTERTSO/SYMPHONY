@@ -1,13 +1,2 @@
-FROM nikolaik/python-nodejs:python3.9-nodejs18
-
-RUN apt-get update -y && apt-get upgrade -y \
-    && apt-get install -y --no-install-recommends ffmpeg \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
-
-COPY . /app/
-WORKDIR /app/
-
-RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
-
-CMD bash fallen
+RUN pip install --upgrade setuptools pip
+RUN pip install numpy==1.23.3  # or a different version that is compatible with Python 3.12.1
