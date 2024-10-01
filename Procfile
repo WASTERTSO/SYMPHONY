@@ -1,1 +1,1 @@
-web: bash fallen
+worker: bash fallen
