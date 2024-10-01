@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8080
 
 # Run command
-CMD ["python", "()"]
+CMD ["python", "(bash fallen)"]
